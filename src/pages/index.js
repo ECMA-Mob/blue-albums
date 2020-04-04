@@ -1,20 +1,39 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
+import AlbumTile from "../components/AlbumTile"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
+    <AlbumTile class="albumFlex" cover="covers/tmbg-flood.png" title="Flood" band="They Might Be Giants" />
+    <AlbumTile class="albumFlex" cover="covers/rhcp-blood_sugar_sex_magik.png" title="Blood Sugar Sex Magik" band="Red Hot Chili Peppers" />
+    <AlbumTile class="albumFlex" cover="images/weezer-blue_album.jpeg" title="Blue Album" band="Weezer" />
   </Layout>
 )
 

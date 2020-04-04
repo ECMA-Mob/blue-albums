@@ -1,0 +1,33 @@
+div.albumDetails {
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  width: 220px;
+  margin: 0 10 0 10;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
+
+.caption {
+  display: block;
+}
+
+h1 {
+  margin: -5px 0px -5px 0px;
+}
+
+h3 {
+  margin: 5px 0px 5px 0px;
+}
+
+a {
+  color: #0099cb;
+}
+
+.listenLink {
+  margin: 0px 10px 0px 0px;
+}
